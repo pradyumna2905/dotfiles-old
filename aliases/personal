@@ -1,0 +1,12 @@
+/************/
+/* Personal */
+/************/
+alias osc='cd ~/code/open-source'
+
+/***********/
+/* Balance */
+/***********/
+alias bal='cd ~/Dropbox/Balance'
+alias balr='cd ~/Dropbox/Balance/balance'
+alias balm='cd ~/Dropbox/Balance/balance_mktg'
+alias balb='cd ~/Dropbox/Balance/balance_blog'

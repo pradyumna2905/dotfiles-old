@@ -1,0 +1,21 @@
+/*********/
+/* Rails */
+/*********/
+alias t='bundle exec rspec'
+alias be='bundle exec'
+alias bo='EDITOR=vi bundle open'
+alias bi='bundle install'
+alias fs='bundle install && foreman start'
+alias irb='irb --readline -r irb/completion'
+alias js='jekyll serve'
+alias rc='bin/rails console'
+alias rdm="bin/rake db:migrate"
+alias routes="bin/rake routes"
+alias rg=rrg
+alias rds='bundle exec rake db:reset'
+alias rdss='bundle exec rake db:reset && RAILS_ENV=test rake db:seed'
+alias seed='bin/rake db:seed'
+alias rdtp="bin/rake db:test:prepare"
+alias reguard='killall -9 ruby ; guard'
+alias rs='./bin/rails server'
+alias ss='spring stop'

@@ -1,0 +1,25 @@
+/********/
+/* Work */
+/********/
+alias eba='cd ~/code/clearstack/eba'
+alias ebr=create_eba_branch
+alias egc=eba_git_commit
+alias bb='cd ~/code/clearstack/eba_black_box'
+alias int='cd ~/code/clearstack/eba_intake'
+alias jobs='cd ~/code/clearstack/eba.jobs'
+alias teba="eba && tmux new -s eba"
+alias tint="eba_intake && tmux new -s intake"
+alias tbb="eba_black_box && tmux new -s bb"
+alias tjobs="jobs && tmux new -s jobs"
+alias ebatoken='bundle exec rake eba:api:generate_token'
+alias intoken='bundle exec rake eba_intake:api:generate_token'
+alias tokens='eba && ebatoken && int && intoken'
+alias redis='brew services start redis'
+alias hos='sudo vi /etc/hosts'
+alias solar='bundle exec rake sunspot:solr:start'
+alias ssolar='bundle exec rake sunsport:solr:stop'
+alias egco=eba_git_checkout_branch
+alias j=jira
+alias os='ebaboard ; ctgmail ; tmuxeba'
+alias csci=cs_ci
+alias wlg='vi ~/Dropbox/notes/worklog.md'
