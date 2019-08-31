@@ -34,11 +34,10 @@ compinit
 # SOURCE FILES #
 ################
 
-# Aliases
-for f in $HOME/.dotfiles-edge/aliases/*; do source $f; done
-
 # ZSH
 for f in $HOME/.dotfiles-edge/zsh/*; do source $f; done
+# Aliases
+for f in $HOME/.dotfiles-edge/aliases/*; do source $f; done
 
 # ENV vars.
 ###############################################################################
