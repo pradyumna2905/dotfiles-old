@@ -35,22 +35,22 @@ compinit
 ################
 
 # Aliases
-for f in $HOME/.dotfiles/aliases/*; do source $f; done
+for f in $HOME/.dotfiles-edge/aliases/*; do source $f; done
 
 # ZSH
-for f in $HOME/.dotfiles/zsh/*; do source $f; done
+for f in $HOME/.dotfiles-edge/zsh/*; do source $f; done
 
 # ENV vars.
 ###############################################################################
 # NOTE: This dir should be added to .gitignore otherwise you might be fu*ked! #
 ###############################################################################
-for f in $HOME/.dotfiles/env_vars/*; do source $f; done
+for f in $HOME/.dotfiles-edge/env_vars/*; do source $f; done
 
 # Add current directory bin
 export PATH=$PATH:bin
 
-# Add my own dotfiles bin
-export PATH=$PATH:$HOME/.dotfiles/bin
+# Add my own dotfiles-edge bin
+export PATH=$PATH:$HOME/.dotfiles-edge/bin
 
 # RVM
 [[ -s "/Users/pradyumna/.rvm/scripts/rvm" ]] && source "/Users/pradyumna/.rvm/scripts/rvm"

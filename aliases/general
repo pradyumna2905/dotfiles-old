@@ -1,7 +1,6 @@
-/***********/
-/* General */
-/***********/
-
+###########
+# General #
+###########
 platform=`uname`
 if [[ $platform == 'Linux' ]]; then
   alias a='ls -lrth --color'

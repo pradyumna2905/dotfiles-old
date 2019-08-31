@@ -1,11 +1,11 @@
-/************/
-/* Personal */
-/************/
+############
+# Personal #
+############
 alias osc='cd ~/code/open-source'
 
-/***********/
-/* Balance */
-/***********/
+###########
+# Balance #
+###########
 alias bal='cd ~/Dropbox/Balance'
 alias balr='cd ~/Dropbox/Balance/balance'
 alias balm='cd ~/Dropbox/Balance/balance_mktg'

@@ -1,6 +1,6 @@
-/********/
-/* Work */
-/********/
+########
+# Work #
+########
 alias eba='cd ~/code/clearstack/eba'
 alias ebr=create_eba_branch
 alias egc=eba_git_commit

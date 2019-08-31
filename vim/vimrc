@@ -1,9 +1,9 @@
 " Use VIM settings rather than vi.
 set nocompatible
 
-source ~/.dotfiles/vim/plugins.vim
-source ~/.dotfiles/vim/setters.vim
-source ~/.dotfiles/vim/mappings.vim
+source ~/.dotfiles-edge/vim/plugins.vim
+source ~/.dotfiles-edge/vim/setters.vim
+source ~/.dotfiles-edge/vim/mappings.vim
 
 syntax on
 filetype plugin indent on

@@ -1,6 +1,6 @@
-/*********/
-/* Rails */
-/*********/
+#########
+# Rails #
+#########
 alias t='bundle exec rspec'
 alias be='bundle exec'
 alias bo='EDITOR=vi bundle open'
