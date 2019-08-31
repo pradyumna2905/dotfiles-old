@@ -114,5 +114,3 @@ function man() {
     PATH="$HOME/bin:$PATH" \
       man "$@"
 }
-
-

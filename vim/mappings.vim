@@ -19,7 +19,7 @@ map <Leader>D obinding.pry<esc>:w<cr>
 map <Leader>dr :e ~/Dropbox<cr>
 map <Leader>o :w<cr>:call RunNearestSpec()<CR>
 map <Leader>ps :set paste<CR><esc>
-map <Leader>px :set paste<CR><esc>
+map <Leader>px :set nopaste<CR><esc>
 map <Leader>q :copen<cr><cr>
 map <Leader>ra :%s/
 map <Leader>rd :redraw!<cr>
